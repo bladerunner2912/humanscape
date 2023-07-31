@@ -1,0 +1,24 @@
+<div class="my-80">
+  <div
+    *ngIf="content['type'] === 'si'"
+    class="bg-cover flex flex-row justify-center max-h-[580px]"
+  >
+    <img
+      class="transition-grayscale grayscale duration-[800ms] max-h-[600px] hover:grayscale-0"
+      src="../../../assets/images/{{ content['items'][0] }}.png"
+    />
+  </div>
+  <div
+    *ngIf="content['type'] === 'di'"
+    class="flex flex-row space-x-[300px] items-center"
+  >
+    <img
+      class="transition-grayscale grayscale duration-[800ms] hover:grayscale-0 max-h-[530px] cursor-pointer"
+      src="../../../assets/images/{{ content['items'][0] }}.png"
+    />
+    <img
+      class="transition-grayscale grayscale duration-[800ms] hover:grayscale-0 max-h-[530px] cursor-pointer"
+      src="../../../assets/images/{{ content['items'][1] }}.png"
+    />
+  </div>
+</div>

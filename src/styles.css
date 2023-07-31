@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Artifakt-Element"; /* Use any name you want */
+  src: url("assets/fonts/ArtifaktElement-Regular.woff.ttf") format("truetype");
+  /* Add more file formats if available (e.g., .ttf) */
+  /* Adjust the file paths according to your project structure */
+}
+
+header {
+  color: black;
+  font-family: "Artifakt-Element";
+}
+
+body {
+  background-color: #ebebeb;
+  font-family: "Artifakt-Element";
+}

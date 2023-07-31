@@ -1,0 +1,7 @@
+<div class="w-full px-[7%]">
+  <app-arch-digest-section></app-arch-digest-section>
+  <app-container
+    *ngFor="let item of s; index as i;"
+    [content]="s[i]"
+  ></app-container>
+</div>
